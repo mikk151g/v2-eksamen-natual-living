@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  justify-content: center;
+
+  .section-info {
+    
+
+    &__text-box-wrapper {
+      display: flex;
+      justify-content: space-between;
+      width: 115rem;
+
+      .section-info__text-box {
+
+        &:not(:last-child) {
+          margin-right: 4rem;
+        }
+
+        .section-info__text {
+          color: $color-grey;
+        }
+      }
+    }
+  }
+}
