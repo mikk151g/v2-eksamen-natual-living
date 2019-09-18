@@ -1,5 +1,5 @@
 .section-info {
-  
+
   &__text-box-wrapper {
     display: flex;
     justify-content: space-between;
@@ -20,6 +20,7 @@
 }
 
 .section-imgs {
+  position: relative;
   background-color: $color-grey-light;
   
   &__card-wrapper {

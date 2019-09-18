@@ -1,0 +1,19 @@
+.arrows {
+  height: 4rem;
+  width: 8rem;
+  background-color: $color-grey-darker;
+  clip-path: polygon(0 100%, 50% 0, 100% 100%, 60% 100%, 50% 80%, 40% 100%);
+}
+
+.section-imgs__arrow {
+  position: absolute;
+  bottom: 63rem;
+  right: 47.5%;
+}
+
+.big-img__arrow {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  bottom: -2rem;
+  right: 46%;
+}
