@@ -1,0 +1,17 @@
+.button {
+  position: absolute;
+  top: 47.5%;
+  right: 32.5%;
+  width: 40%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1rem 2.5rem;
+  border: .2rem solid $color-white;
+  -moz-border-radius: 10rem;
+  border-radius: 10rem;
+  color: $color-white;
+}

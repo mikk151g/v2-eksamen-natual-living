@@ -1,8 +1,11 @@
-.header__img {
-  background-position: center;
-  background-size: cover;
-  height: 67vh;
-  width: 100%;
+.header {
+
+  &__img {
+    background-position: center;
+    object-fit: cover;
+    height: 87.5vh;
+    width: 100%;
+  }
 }
 
 .navigation-wrapper {
@@ -11,7 +14,7 @@
   align-items: flex-end;
   background-color: $color-black;
   margin-top: -0.2rem;
-  height: 12vh;
+  height: 12.5vh;
 
   .navigation {
     display: flex;
