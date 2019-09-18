@@ -31,12 +31,25 @@
     }
 
     &__link {
-      font-family: 'Lato', sans-serif;
-      font-weight: 400;
-      font-size: 1.5rem;
-      color: $color-white;
-      text-decoration: none;
-      padding: 2rem;
+
+      &,
+      &:active,
+      &:visited,
+      &:link {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: $color-white;
+        text-decoration: none;
+        padding: 2rem;
+        transition: all .2s ease-out;
+      }
+      
+      &:hover {
+        background-color: $color-white;
+        color: $color-black;
+        font-size: 2rem;
+      }
     }
   }
 }

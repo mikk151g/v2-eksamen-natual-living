@@ -31,7 +31,7 @@
 
   &__card {
     width: 33.333333%;
-    height: 60rem;
+    height: 75rem;
     margin-top: 6rem;
     background-color: $color-white;
 
@@ -41,7 +41,7 @@
   }
 
   &__img {
-    height: 35rem;
+    height: 45rem;
     width: 100%;
   }
 
@@ -60,13 +60,13 @@
     position: relative;
     top: 0;
     left: 0;
-    height: 67.5vh;
+    height: 70vh;
   }
 
   &__big-img {
     object-position: center;
     object-fit: cover;
-    height: 67.5vh;
+    height: 70vh;
     width: 100%;
   }
 
