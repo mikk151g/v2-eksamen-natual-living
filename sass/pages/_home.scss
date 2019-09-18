@@ -59,14 +59,13 @@
     position: relative;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 67.5vh;
   }
 
   &__big-img {
-    
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
+    object-position: center;
+    object-fit: cover;
+    height: 67.5vh;
     width: 100%;
   }
 
