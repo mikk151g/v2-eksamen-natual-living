@@ -1,0 +1,42 @@
+.navigation-wrapper {
+
+  display: flex;
+  align-items: flex-end;
+  background-color: $color-black;
+  margin-top: -0.2rem;
+  height: 12.5vh;
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin: 0 5rem;
+
+    &__logo {
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 300;
+      font-size: 6rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $color-white;
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      width: 40rem;
+      margin: 0 -2rem 2rem 0;
+      list-style: none;
+    }
+
+    &__link {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 1.5rem;
+      color: $color-white;
+      text-decoration: none;
+      padding: 2rem;
+    }
+  }
+}
