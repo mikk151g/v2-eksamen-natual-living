@@ -1,6 +1,8 @@
 .header__img {
-  width: 100vw;
-  height: 87.5vh;
+  background-position: center;
+  background-size: cover;
+  height: 67vh;
+  width: 100%;
 }
 
 .navigation-wrapper {
@@ -9,7 +11,7 @@
   align-items: flex-end;
   background-color: $color-black;
   margin-top: -0.2rem;
-  height: 12.5vh;
+  height: 12vh;
 
   .navigation {
     display: flex;
